@@ -1,39 +1,39 @@
-Maze Solver Game
-Python
-PyQt5
-License
+# Maze Solver Game
+  Python
+  PyQt5
+  License
+ 
+  A PyQt5-based maze navigation game where players race against time to find the optimal path from start to finish. Features procedural maze generation, real-time scoring, and A* pathfinding visualization.
 
-A PyQt5-based maze navigation game where players race against time to find the optimal path from start to finish. Features procedural maze generation, real-time scoring, and A* pathfinding visualization.
+## Table of Contents
+   Features
 
-Table of Contents
-Features
+  Installation
 
-Installation
+  How to Play
 
-How to Play
+  Game Mechanics
 
-Game Mechanics
+  Screenshots
 
-Screenshots
+  License
 
-License
+## Features
+  🎮 Interactive GUI built with PyQt5
 
-Features
-🎮 Interactive GUI built with PyQt5
+  🧩 Procedural maze generation with guaranteed solvable paths
 
-🧩 Procedural maze generation with guaranteed solvable paths
+  ⏳ 60-second time limit challenge
 
-⏳ 60-second time limit challenge
+  📈 Scoring system comparing player steps vs optimal path
 
-📈 Scoring system comparing player steps vs optimal path
+  🏃 Real-time player movement with arrow keys
 
-🏃 Real-time player movement with arrow keys
+  📊 A* algorithm integration for optimal path calculation
 
-📊 A algorithm integration* for optimal path calculation
+  🎉 Win/lose screens with performance metrics
 
-🎉 Win/lose screens with performance metrics
-
-Installation
+## Installation
 Clone the repository:
 
 bash
@@ -50,28 +50,29 @@ Run the game:
 bash
 Copy
 python maze_solver.py
-How to Play
-Controls: Use arrow keys (↑ ↓ ← →) to move the blue player
 
-Objective: Reach the red exit before time runs out
+## How to Play
+   Controls: Use arrow keys (↑ ↓ ← →) to move the blue player
 
-Scoring: Each move deducts points - fewer steps = higher score!
+   Objective: Reach the red exit before time runs out
 
-Challenge: Try to match the optimal A* path length
+   Scoring: Each move deducts points - fewer steps = higher score!
 
-Time Limit: 60 seconds per attempt
+   Challenge: Try to match the optimal A* path length
 
-Game Mechanics
-🧱 Mazes are 10x10 grids with random wall placement (40% wall density)
+   Time Limit: 60 seconds per attempt
 
-🔍 A* algorithm ensures solvability during generation
+## Game Mechanics
+   🧱 Mazes are 10x10 grids with random wall placement (40% wall density)
 
-⭐ Score calculation: 100 - (player_steps - optimal_steps)
+   🔍 A* algorithm ensures solvability during generation
 
-🕒 Game ends if:
+   ⭐ Score calculation: 100 - (player_steps - optimal_steps)
 
-Player reaches exit (win)
+   🕒 Game ends if:
 
-Time expires (lose)
+      Player reaches exit (win)
 
-Player matches optimal path (special win message)
+      Time expires (lose)
+
+     Player matches optimal path (special win message)
