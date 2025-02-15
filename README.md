@@ -1,22 +1,21 @@
 # Maze Solver Game
   Python
   PyQt5
-  License
  
   A PyQt5-based maze navigation game where players race against time to find the optimal path from start to finish. Features procedural maze generation, real-time scoring, and A* pathfinding visualization.
 
 ## Table of Contents
-   Features
+  -Features
 
-  Installation
+  -Installation
 
-  How to Play
+  -How to Play
 
-  Game Mechanics
+  -Game Mechanics
 
-  Screenshots
+  -Screenshots
 
-  License
+  -License
 
 ## Features
   🎮 Interactive GUI built with PyQt5
@@ -32,24 +31,6 @@
   📊 A* algorithm integration for optimal path calculation
 
   🎉 Win/lose screens with performance metrics
-
-## Installation
-Clone the repository:
-
-bash
-Copy
-git clone https://github.com/yourusername/maze-solver-game.git
-cd maze-solver-game
-Install dependencies:
-
-bash
-Copy
-pip install PyQt5
-Run the game:
-
-bash
-Copy
-python maze_solver.py
 
 ## How to Play
    Controls: Use arrow keys (↑ ↓ ← →) to move the blue player
@@ -69,10 +50,9 @@ python maze_solver.py
 
    ⭐ Score calculation: 100 - (player_steps - optimal_steps)
 
-   🕒 Game ends if:
-
+   🕒 Game ends if : { 
       Player reaches exit (win)
-
       Time expires (lose)
+      Player matches optimal path (special win message) }
 
-     Player matches optimal path (special win message)
+
