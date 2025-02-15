@@ -50,9 +50,15 @@
 
    ⭐ Score calculation: 100 - (player_steps - optimal_steps)
 
-   🕒 Game ends if : { 
+   🕒 Game ends if :
+   
+     { 
+   
       Player reaches exit (win)
+      
       Time expires (lose)
-      Player matches optimal path (special win message) }
+      
+      Player matches optimal path (special win message)
+      }
 
 
