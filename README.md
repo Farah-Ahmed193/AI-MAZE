@@ -51,9 +51,13 @@
    ⭐ Score calculation: 100 - (player_steps - optimal_steps)
 
    🕒 Game ends if :
-      Player reaches exit (win)
-     -- Time expires (lose)
-     -- Player matches optimal path (special win message) 
+     . Player reaches exit (win)
+     . Time expires (lose)
+     . Player matches optimal path (special win message) 
       
-
+## 💡 About This Project
+This project was developed for educational purposes to demonstrate:
+- PyQt5 GUI development
+- A* pathfinding algorithm implementation 
+- Game mechanics design
 
