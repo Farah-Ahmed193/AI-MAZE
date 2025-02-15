@@ -7,15 +7,13 @@
 ## Table of Contents
   -Features
 
-  -Installation
-
   -How to Play
 
   -Game Mechanics
 
-  -Screenshots
-
-  -License
+  -Screen Record
+  
+  -About This Project
 
 ## Features
   🎮 Interactive GUI built with PyQt5
@@ -54,6 +52,8 @@
      . Player reaches exit (win)
      . Time expires (lose)
      . Player matches optimal path (special win message) 
+
+## Screen Record
       
 ## 💡 About This Project
 This project was developed for educational purposes to demonstrate:
