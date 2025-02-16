@@ -4,17 +4,6 @@
  
   A PyQt5-based maze navigation game where players race against time to find the optimal path from start to finish. Features procedural maze generation, real-time scoring, and A* pathfinding visualization.
 
-## Table of Contents
-  -Features
-
-  -How to Play
-
-  -Game Mechanics
-
-  -Screen Record
-  
-  -About This Project
-
 ## Features
   🎮 Interactive GUI built with PyQt5
 
